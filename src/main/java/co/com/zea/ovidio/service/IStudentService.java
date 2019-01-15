@@ -9,4 +9,5 @@ public interface IStudentService {
 	
 	public Student retrieveStudent(String studentId);
 	public List<Course> retrieveCourses(String studentId);
+	public List<String> valorVariablesEntorno();
 }
