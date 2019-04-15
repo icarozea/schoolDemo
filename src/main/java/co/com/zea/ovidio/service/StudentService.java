@@ -62,7 +62,7 @@ public class StudentService implements IStudentService {
 
 	public List<Course> retrieveCourses(String studentId) {
 		Student student = retrieveStudent(studentId);
-		this.ejemploProperties();
+		//this.ejemploProperties();
 		if (student == null) {
 			return null;
 		}
