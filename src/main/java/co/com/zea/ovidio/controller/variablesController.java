@@ -20,7 +20,7 @@ public class variablesController {
 	
 	@GetMapping("/")
 	public List<String> callVariables(){
-		return studentService.valorVariablesEntorno();
+		return null;
 	}
 
 	@GetMapping("/{studentId}/courses")
