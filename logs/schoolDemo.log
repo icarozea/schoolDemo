@@ -1,0 +1,85 @@
+2019-04-16 11:07:10.303  INFO 10196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-16 11:07:10.484  INFO 10196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b849916e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-16 11:07:10.572  INFO 10196 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2019-04-16 11:07:13.990  INFO 10196 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=schoolDemo, profiles=[default], label=null, version=549dcb4e5539e5a72675cf858769c361b4e440dd, state=null
+2019-04-16 11:07:13.990  INFO 10196 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/icarozea/configServer.git/schoolDemo.properties'}]}
+2019-04-16 11:07:14.066  INFO 10196 --- [restartedMain] co.com.zea.ovidio.SchoolDemoApplication  : No active profile set, falling back to default profiles: default
+2019-04-16 11:07:14.852  INFO 10196 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a6e89d90-6330-3ba6-91de-b6c713219b19
+2019-04-16 11:07:14.874  INFO 10196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b849916e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-16 11:07:15.666  INFO 10196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-04-16 11:07:15.677  INFO 10196 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-16 11:07:15.677  INFO 10196 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-04-16 11:07:15.681  INFO 10196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-04-16 11:07:15.682  INFO 10196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-04-16 11:07:15.682  INFO 10196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-04-16 11:07:15.684  INFO 10196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.0g  2 Nov 2017]
+2019-04-16 11:07:15.812  INFO 10196 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-16 11:07:15.812  INFO 10196 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1736 ms
+2019-04-16 11:07:16.077  INFO 10196 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-16 11:07:16.077  INFO 10196 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-04-16 11:07:16.077  INFO 10196 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-16 11:07:16.077  INFO 10196 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2019-04-16 11:07:16.077  INFO 10196 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-16 11:07:16.078  INFO 10196 --- [restartedMain] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-16 11:07:16.078  INFO 10196 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-04-16 11:07:16.078  INFO 10196 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-04-16 11:07:16.325  INFO 10196 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2019-04-16 11:07:16.373  INFO 10196 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-16 11:07:16.453  INFO 10196 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 11:07:16.486  INFO 10196 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-04-16 11:07:16.676  INFO 10196 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31d5773c, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b89e9b3, org.springframework.security.web.header.HeaderWriterFilter@2a315c0a, org.springframework.security.web.authentication.logout.LogoutFilter@75c29261, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@41be1d26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3df8f384, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38090585, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18bb1ddc, org.springframework.security.web.session.SessionManagementFilter@3069564d, org.springframework.security.web.access.ExceptionTranslationFilter@4e4d6744, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6cd56883]
+2019-04-16 11:07:16.783  INFO 10196 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-16 11:07:16.797  INFO 10196 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-16 11:07:16.820  INFO 10196 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-16 11:07:16.848  WARN 10196 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-04-16 11:07:16.891  INFO 10196 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: retrieveCoursesForStudentUsingGET_1
+2019-04-16 11:07:16.922  INFO 10196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-04-16 11:07:16.924  INFO 10196 --- [restartedMain] co.com.zea.ovidio.SchoolDemoApplication  : Started SchoolDemoApplication in 8.083 seconds (JVM running for 8.815)
+2019-04-16 11:07:31.097  INFO 10196 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 11:07:31.098  INFO 10196 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-16 11:07:31.107  INFO 10196 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-04-16 11:48:28.662  WARN 10196 --- [http-nio-8081-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2019-04-16 11:51:19.268  INFO 10196 --- [RMI TCP Connection(52)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-04-16 11:51:19.374  INFO 10196 --- [RMI TCP Connection(52)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-16 11:51:19.455  INFO 10196 --- [RMI TCP Connection(52)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-04-16 11:51:19.512  INFO 10196 --- [RMI TCP Connection(52)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-04-16 11:52:19.774  INFO 11582 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-16 11:52:20.126  INFO 11582 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8ea1d063] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-16 11:52:20.225  INFO 11582 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2019-04-16 11:52:23.618  INFO 11582 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=schoolDemo, profiles=[default], label=null, version=96910df73a5f6a0871a54db42f64492497ace785, state=null
+2019-04-16 11:52:23.619  INFO 11582 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/icarozea/configServer.git/schoolDemo.properties'}]}
+2019-04-16 11:52:23.758  INFO 11582 --- [restartedMain] co.com.zea.ovidio.SchoolDemoApplication  : No active profile set, falling back to default profiles: default
+2019-04-16 11:52:24.535  INFO 11582 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a6e89d90-6330-3ba6-91de-b6c713219b19
+2019-04-16 11:52:24.558  INFO 11582 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8ea1d063] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-16 11:52:26.229  INFO 11582 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-04-16 11:52:26.240  INFO 11582 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-16 11:52:26.240  INFO 11582 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-04-16 11:52:26.245  INFO 11582 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-04-16 11:52:26.245  INFO 11582 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-04-16 11:52:26.245  INFO 11582 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-04-16 11:52:26.278  INFO 11582 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.0g  2 Nov 2017]
+2019-04-16 11:52:26.412  INFO 11582 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-16 11:52:26.412  INFO 11582 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2643 ms
+2019-04-16 11:52:26.682  INFO 11582 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-16 11:52:26.683  INFO 11582 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-04-16 11:52:26.683  INFO 11582 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-16 11:52:26.683  INFO 11582 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2019-04-16 11:52:26.683  INFO 11582 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-16 11:52:26.683  INFO 11582 --- [restartedMain] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-16 11:52:26.683  INFO 11582 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-04-16 11:52:26.684  INFO 11582 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-04-16 11:52:26.960  INFO 11582 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2019-04-16 11:52:27.007  INFO 11582 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-16 11:52:27.091  INFO 11582 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 11:52:27.127  INFO 11582 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-04-16 11:52:27.319  INFO 11582 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70c2ab9e, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d22518d, org.springframework.security.web.header.HeaderWriterFilter@672141a7, org.springframework.security.web.authentication.logout.LogoutFilter@1133eeb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2f8ad586, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c1aa212, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c0395ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6832bc83, org.springframework.security.web.session.SessionManagementFilter@16c05c5d, org.springframework.security.web.access.ExceptionTranslationFilter@6cf659bb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e36e649]
+2019-04-16 11:52:27.429  INFO 11582 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-16 11:52:27.442  INFO 11582 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-16 11:52:27.464  INFO 11582 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-16 11:52:27.492  WARN 11582 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-04-16 11:52:27.533  INFO 11582 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: retrieveCoursesForStudentUsingGET_1
+2019-04-16 11:52:27.612  INFO 11582 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-04-16 11:52:27.615  INFO 11582 --- [restartedMain] co.com.zea.ovidio.SchoolDemoApplication  : Started SchoolDemoApplication in 8.707 seconds (JVM running for 11.143)
+2019-04-16 11:52:40.957  INFO 11582 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 11:52:40.958  INFO 11582 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-16 11:52:40.965  INFO 11582 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms

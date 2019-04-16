@@ -4,8 +4,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import co.com.zea.ovidio.Configuration;
 import co.com.zea.ovidio.model.Course;
 import co.com.zea.ovidio.model.Student;
 
@@ -26,6 +29,12 @@ public class StudentService implements IStudentService {
 
 		students.add(ranga);
 	}
+	
+	@Autowired
+	private Configuration configuration;
+	
+	@Value("${valores.valor_fijo}")
+	String valorFijo;
 
 	public Student retrieveStudent(String studentId) {
 		for (Student student : students) {
@@ -37,6 +46,8 @@ public class StudentService implements IStudentService {
 	}
 
 	public List<Course> retrieveCourses(String studentId) {
+		
+		System.out.println("Variables{ valorFijo:"+valorFijo + " Maximun:" + configuration.getMaximum());
 		Student student = retrieveStudent(studentId);
 		//this.ejemploProperties();
 		if (student == null) {
